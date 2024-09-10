@@ -22,13 +22,16 @@ export default function Hero() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
+          
+
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+            <h1 className="h1 mb-4" data-aos="fade-up">Welcome to Showtime Boxing Fitness Boxing!</h1>
+            
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">At Showtime Boxing Fitness, we pride ourselves on being more than just a gym — we are a community built on passion, discipline, and dedication to the art of boxing. Located in the heart of Los Angeles, our facility has a rich history of producing top-notch talent, with numerous renowned boxers having trained within our walls.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">See Available Classes</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
