@@ -1,7 +1,20 @@
+'use client'; // Add this line at the top
+
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
+import { useEffect, useRef } from 'react';
 
 export default function Hero() {
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(error => {
+        console.error("Error playing video:", error);
+        // Optionally, display an error message to the user or provide a fallback image
+      });
+    }
+  }, []); 
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -47,6 +60,21 @@ export default function Hero() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080} />
+
+
+<div className="mt-4">  
+          <video 
+            ref={videoRef}
+            src="/videos/video.mp4"
+            width="100%" // Adjust as needed
+            height="auto" 
+            autoPlay 
+            muted // Often required for autoplay to work
+            controls // Optionally, provide controls for the user
+          >
+            Your browser does not support the video tag.
+          </video>
+        </div>
 
         </div>
 
