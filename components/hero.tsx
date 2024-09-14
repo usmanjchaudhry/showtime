@@ -40,7 +40,21 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Welcome to Showtime Boxing Fitness Boxing!</h1>
-            
+            </div>
+            <div className="">  
+          <video 
+            ref={videoRef}
+            src="/videos/tankDavis.mov"
+            width="100%" // Adjust as needed
+            height="auto" 
+            autoPlay 
+            muted // Often required for autoplay to work
+            controls // Optionally, provide controls for the user
+          >
+            Your browser does not support the video tag.
+          </video>
+        </div>
+            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">At Showtime Boxing Fitness, we pride ourselves on being more than just a gym — we are a community built on passion, discipline, and dedication to the art of boxing. Located in the heart of Los Angeles, our facility has a rich history of producing top-notch talent, with numerous renowned boxers having trained within our walls.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -52,29 +66,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
 
-
-<div className="mt-4">  
-          <video 
-            ref={videoRef}
-            src="/videos/video.mp4"
-            width="100%" // Adjust as needed
-            height="auto" 
-            autoPlay 
-            muted // Often required for autoplay to work
-            controls // Optionally, provide controls for the user
-          >
-            Your browser does not support the video tag.
-          </video>
-        </div>
 
         </div>
 
