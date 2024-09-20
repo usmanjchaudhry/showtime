@@ -60,10 +60,10 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-3">
             <h1 className="h1" data-aos="fade-up">
-              Welcome to Showtime Boxing Fitness Boxing!
+              Welcome to Showtime Fitness Boxing!
             </h1>
           </div>
-                  {/* Illustration behind hero content 
+          
 
           <div className="mb-4">
             <video
@@ -77,7 +77,7 @@ export default function Hero() {
             >
               Your browser does not support the video tag.
             </video>
-          </div>*/}
+          </div>
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <p
               className="text-xl text-gray-400 mb-8"
