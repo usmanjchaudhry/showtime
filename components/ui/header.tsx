@@ -50,7 +50,6 @@ export default function Header() {
                   Trainers
                 </Link>
               </li>
-            
             </ul>
           </nav>
 
