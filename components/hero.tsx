@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-3">
-            <h1 className="h1 text-purple-600" data-aos="fade-up">
+            <h1 className="h1  text-black-100" data-aos="fade-up">
               Welcome to Showtime Fitness Boxing!
             </h1>
           </div>

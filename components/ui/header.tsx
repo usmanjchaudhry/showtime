@@ -29,7 +29,7 @@ export default function Header() {
             <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-black-100 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   About
                 </Link>
@@ -37,7 +37,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-mediumtext-black-100 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Schedule
                 </Link>
@@ -45,7 +45,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-black-100 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Trainers
                 </Link>
