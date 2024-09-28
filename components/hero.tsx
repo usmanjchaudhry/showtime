@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-3">
-            <h1 className="h1" data-aos="fade-up">
+            <h1 className="h1 text-purple-600" data-aos="fade-up">
               Welcome to Showtime Fitness Boxing!
             </h1>
           </div>
@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <p
-              className="text-xl text-gray-400 mb-8"
+              className="text-xl text-black-100 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >

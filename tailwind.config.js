@@ -17,7 +17,7 @@ module.exports = {
           600: '#55595F',
           700: '#33363A',
           800: '#25282C',
-          900: '#151719',
+          900: '#FFFFFF',
         },
         purple: {
           100: '#FFF4F4', // Lightest red tint
@@ -29,6 +29,9 @@ module.exports = {
           700: '#FF4B4B',
           800: '#CC3838', // Darker red
           900: '#992626', // Darkest red
+        },
+        black: {
+          100: '#000000'
         }
       },
       spacing: {
