@@ -37,7 +37,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  className="font-mediumtext-black-100 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-black-100 hover:text-purple-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Schedule
                 </Link>
